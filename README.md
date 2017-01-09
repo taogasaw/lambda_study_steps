@@ -28,14 +28,14 @@
   * lambda_function.pyの作成
 1. 開発2_主要機能(s3_main)の実装  
   * s3_main.pyの作成と、大まかな流れの理解
-  * DLしたCSVのデータ変換、オリジナルをS3にバックアップ
-  * 変更後のデータをDBに保存
+  * DLしたCSVのデータ変換
   * 変換後のデータをCSVでS3にバックアップ
-  * オリジナルを削除
+  * 変更後のデータをDBに保存
+  * オリジナルをS3に別名バックアップし、削除
 1. 開発3_AWS環境設定とデプロイ  
   * AWSにlambda/DBの環境構築
   * zip_for_deploy.pyの開発
   * デプロイして挙動確認
 
 ## 全体像
-![全体像](https://github.com/taogasaw/lambda_study_steps/wiki/images/all.png)
+![全体像](https://github.com/taogasaw/lambda_study_steps/wiki/images/study_all.png)
