@@ -12,6 +12,7 @@
 1. お気に入りのエディタ、できればpythonサポート機能を入れておく
 1. postgresとgit、それを自由にいじれる権限
 1. プライベートAWSアカウント、管理者権限
+1. 使用端末へこのリポジトリのクローン
 
 ## 勉強会概要
 1. 環境設定  
@@ -21,7 +22,9 @@
   * psycopg2とlambda-packagesのインストール
   * 開発環境にDB作成、.bash_profileにAWS keyの指定
 1. 開発1_基本構成の設定
-  * library以下のdb_connect・settings・utilの開発
+  * libraryディレクトリ作成、settingsの開発
+  * utilの開発
+  * db_connectの開発
   * lambda_function.pyの作成
 1. 開発2_主要機能(s3_main)の実装  
   * s3_main.pyの作成と、大まかな流れの理解
