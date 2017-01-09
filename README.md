@@ -30,3 +30,6 @@
   * AWSにlambda/DBの環境構築
   * zip_for_deploy.pyの開発
   * デプロイして挙動確認
+
+## 全体像
+![全体像](https://github.com/taogasaw/lambda_study_steps/wiki/images/lambda.png)
