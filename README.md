@@ -6,7 +6,9 @@
 
 完成形は  
 https://github.com/taogasaw/lambda_study  
-にあります。
+で、進行手順は  
+https://github.com/taogasaw/lambda_study_steps/wiki  
+です。
 
 ## 事前準備・参加要件
 1. 6回程度(?)、各1〜1.5時間程度参加する時間の確保
