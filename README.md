@@ -15,10 +15,11 @@
 
 ## 勉強会概要
 1. 環境設定  
-  * AWS lambdaの基本的な使い方と、今回の開発概要の理解
+  * 今回の開発概要について
+  * AWS lambdaの基本的な使い方、チュートリアル(lambdaロール/S3用意)
   * (補足)pyenvとpyenv-virtualenvの使い方
   * psycopg2とlambda-packagesのインストール
-  * 開発環境にDB作成、S3にバケット用意、.bash_profileにAWS keyの指定
+  * 開発環境にDB作成、.bash_profileにAWS keyの指定
 1. 開発1_基本構成の設定
   * library以下のdb_connect・settings・utilの開発
   * lambda_function.pyの作成
