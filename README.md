@@ -5,7 +5,7 @@
 なれていないと辛いので、実際のlambdaの挙動/開発フローを見たい、というスタンスでもOKです。
 
 ## 事前準備・参加要件
-1. 6回程度(?)、各1.5〜2時間程度参加する時間の確保
+1. 6回程度(?)、各1〜1.5時間程度参加する時間の確保
 1. 以前シェアしたpython入門の範囲のおおよその理解(本会は文法には深く触れません)
 1. ノートPC、それぞれAdmin/root/sudo権限が使えてネットワークに繋がる端末
 1. 使用するプラットフォームに、python2.7系(できればpyenvやpyenv-virtualenvまたはvirtualenvも)とpipが入っている
@@ -28,13 +28,14 @@
   * lambda_function.pyの作成
 1. 開発2_主要機能(s3_main)の実装  
   * s3_main.pyの作成と、大まかな流れの理解
-  * s3からCSVのDL、解析(collaboratorの開発)
-  * オリジナルと変更後のCSVをs3へUP(csv_controllerの開発1)
-  * DBへ保存(csv_controllerの開発2)
+  * DLしたCSVのデータ変換、オリジナルをS3にバックアップ
+  * 変更後のデータをDBに保存
+  * 変換後のデータをCSVでS3にバックアップ
+  * オリジナルを削除
 1. 開発3_AWS環境設定とデプロイ  
   * AWSにlambda/DBの環境構築
   * zip_for_deploy.pyの開発
   * デプロイして挙動確認
 
 ## 全体像
-![全体像](https://github.com/taogasaw/lambda_study_steps/wiki/images/lambda.png)
+![全体像](https://github.com/taogasaw/lambda_study_steps/wiki/images/all.png)
