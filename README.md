@@ -24,6 +24,7 @@
   * library以下のdb_connect・settings・utilの開発
   * lambda_function.pyの作成
 1. 開発2_主要機能(s3_main)の実装  
+  * s3_main.pyの作成と、大まかな流れの理解
   * s3からCSVのDL、解析(collaboratorの開発)
   * オリジナルと変更後のCSVをs3へUP(csv_controllerの開発1)
   * DBへ保存(csv_controllerの開発2)
